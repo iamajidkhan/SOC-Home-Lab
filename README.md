@@ -443,7 +443,7 @@ majidlab.local (Forest/Domain)
    - Test dashboard functionality
    - Document findings
 
-**Total Build Time**: Approximately 1-2 weeks (part-time effort)
+**Total Build Time**: Approximately 2-3 weeks (full-time effort)
 
 ### **Detailed Setup Documentation**
 See [SETUP-GUIDE.md](./SETUP-GUIDE.md) for step-by-step instructions.
@@ -550,4 +550,4 @@ This project is documented for educational and portfolio purposes. Feel free to 
 
 **Last Updated**: December 2025  
 **Project Status**: Complete & Production-Ready  
-**Build Time**: ~2 weeks (part-time effort)
+**Build Time**: ~3 weeks (full-time effort)
