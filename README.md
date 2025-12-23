@@ -120,6 +120,11 @@ This lab serves as both a learning environment and a professional portfolio piec
                         └───────────────────────┘
 ```
 
+### **Visual Architecture Diagram**
+
+![SOC Lab Architecture](./images/architecture-diagram.png)
+*Complete AWS-based SOC infrastructure with integrated security monitoring*
+
 ### **Infrastructure Components**
 
 | Component | Type | IP Address | Role | Key Software |
@@ -265,6 +270,29 @@ Initial Access → Execution → Persistence → Privilege Escalation → Latera
 - DNS query analysis
 - HTTP/HTTPS traffic breakdown
 
+### **Dashboard Screenshots**
+
+**Splunk Security Operations Dashboard:**
+![Splunk Dashboard](./images/splunk-security-operations-dashboard-1.png)
+
+
+**Splunk Security Operations Dashboard:**
+![Splunk Dashboard](./images/splunk-security-operations-dashboard-2.png)
+
+
+**Splunk Security Operations Dashboard:**
+![Splunk Dashboard](./images/splunk-security-operations-dashboard-3.png)
+
+
+**Suricata Network Traffic Analysis:**
+![Suricata Dashboard](./images/suricata-network-traffic-dashboard-1.png)
+
+**Suricata Network Traffic Analysis:**
+![Suricata Dashboard](./images/suricata-network-traffic-dashboard-2.png)
+
+**Suricata Network Traffic Analysis:**
+![Suricata Dashboard](./images/suricata-network-traffic-dashboard-3.png)
+
 ---
 
 ## 🏢 Active Directory Structure
@@ -310,6 +338,18 @@ majidlab.local (Forest/Domain)
     └── SecurityGroups
 ```
 
+### **Active Directory Screenshots**
+
+![AD Structure 2](./images/active-directory-structure-2.png)
+
+![AD Structure 3](./images/active-directory-structure-3.png)
+
+![AD Structure 4](./images/active-directory-structure-4.png)
+
+![AD Structure 5](./images/active-directory-structure-5.png)
+
+![AD Structure 6](./images/active-directory-structure-6.png)
+
 ### **Domain Users (5 Created)**
 1. **Raju Admin** - Domain Administrator (Administrators group)
 2. **Attacker User** - Simulated threat actor account (Attackers OU)
@@ -348,6 +388,10 @@ majidlab.local (Forest/Domain)
 - ✅ **Consistent Hardening**: Uniform security posture across all endpoints
 - ✅ **Comprehensive Logging**: Maximum telemetry for threat detection and IR
 - ✅ **Attack Surface Reduction**: Disabled legacy protocols and risky services
+
+### **GPO Screenshot**
+![AD Security Groups](./images/ad-security-groups.png)
+
 
 ---
 
