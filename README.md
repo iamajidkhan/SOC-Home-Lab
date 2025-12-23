@@ -551,8 +551,8 @@ See [INTERVIEW-GUIDE.md](./INTERVIEW-GUIDE.md) for 50+ additional interview ques
 ## 📞 Contact
 
 **LinkedIn**: https://www.linkedin.com/in/abdul-majid-khan-b14ab7220/
-**GitHub**: [Your GitHub Profile]  
-**Email**: [Your Email]
+**GitHub**: https://github.com/iamajidkhan
+**Email**: abdulmajidkhan.career@gmail.com
 
 ---
 
