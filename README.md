@@ -20,7 +20,7 @@
 - [Group Policy Objects](#group-policy-objects)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Setup Guide](#setup-guide)
-- [Interview Preparation](#interview-preparation)
+- [About This Project](#About-This-Project)
 - [Documentation](#documentation)
 
 ---
