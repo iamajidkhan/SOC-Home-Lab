@@ -449,56 +449,28 @@ majidlab.local (Forest/Domain)
 See [SETUP-GUIDE.md](./SETUP-GUIDE.md) for step-by-step instructions.
 
 ---
+## 💡 About This Project
 
-## 🎤 Interview Preparation
+This Security Operations Center home lab was built to gain hands-on experience with enterprise-grade security operations in a cloud environment. The project demonstrates practical application of threat detection, incident response, and security monitoring concepts that are essential in modern SOC environments.
 
-### **2-Minute Elevator Pitch**
+### Project Goals
 
-*"I built an enterprise-grade Security Operations Center home lab on AWS to demonstrate comprehensive cybersecurity monitoring and threat detection capabilities. The architecture includes Splunk SIEM for centralized log analysis, Wazuh for endpoint detection and response, Suricata IDS/IPS with VPC traffic mirroring for network detection, and Sysmon for advanced Windows endpoint telemetry.*
+- **Practical Experience**: Deploy and configure enterprise security tools (SIEM, EDR, IDS/IPS) in a production-like environment
+- **Detection Engineering**: Develop sophisticated correlation rules covering the complete cyber kill chain
+- **Threat Hunting**: Build proactive monitoring capabilities using statistical analysis and behavioral detection
+- **Cloud Security**: Understand AWS security architecture, including VPC networking, Security Groups, and traffic mirroring
+- **Documentation**: Practice creating professional technical documentation for security infrastructure and detection logic
 
-*I developed 6 production-ready detection rules covering the complete cyber kill chain—from initial access through command and control—all mapped to the MITRE ATT&CK framework. These detect brute force attacks, suspicious PowerShell execution, lateral movement, privilege escalation, C2 beaconing, and persistence mechanisms.*
+### Key Achievements
 
-*I also built 5 comprehensive dashboards with over 70 visualization panels supporting real-time monitoring, proactive threat hunting, and incident response. The environment uses Active Directory with 12 security-hardened Group Policy Objects that automate security tool deployment and enforce consistent security posture.*
+- Built a multi-layered defense architecture with network, endpoint, and centralized monitoring
+- Developed 6 production-ready detection rules mapped to MITRE ATT&CK framework
+- Created 5 comprehensive security dashboards with 70+ visualization panels
+- Configured Active Directory domain with security-hardened Group Policy Objects
+- Implemented automated security tool deployment via GPO for scalable endpoint management
+- Successfully tested all detection rules with simulated attack scenarios
 
-*This lab demonstrates hands-on experience with enterprise security tools and methodologies, and I've thoroughly documented everything including detection logic, investigation workflows, and interview talking points. I can walk through the complete incident response process from alert triage through containment and remediation."*
-
-### **Key Talking Points**
-
-**Why I Built This:**
-- Gain practical SOC experience beyond theoretical knowledge
-- Understand real-world security tool deployment and operation
-- Develop detection engineering skills (writing rules, tuning alerts)
-- Create a professional portfolio demonstrating technical depth
-
-**Technical Highlights:**
-- Multi-layered defense: SIEM + EDR + IDS/IPS + Endpoint Monitoring
-- Cloud-native architecture using AWS best practices
-- Production-grade detection rules with statistical analysis
-- Comprehensive telemetry: Windows Event Logs, Sysmon, network flows, EDR
-- Attack simulation and validation testing
-
-**Business Value:**
-- Detection rules reduce MTTD (Mean Time To Detect)
-- Dashboards enable rapid incident triage and response
-- Comprehensive logging supports forensic investigation
-- Automated deployment via GPO scales efficiently
-- MITRE ATT&CK mapping enables threat intelligence correlation
-
-### **Common Interview Questions & Answers**
-
-**Q: "Walk me through how you'd investigate a brute force alert."**
-
-*A: "My Brute Force Detection rule triggers on 5+ failed logins within 15 minutes. When it fires, I first check the Security Operations Overview dashboard to identify the targeted account and source IP. I examine the authentication timeline to see if attempts are from a single IP (likely automated tool) or distributed (password spray). I check if any attempts succeeded—if yes, the investigation escalates to potential compromise. I verify whether this is the user's typical IP/geolocation using historical baselines. If it's an external attacker, I recommend account lockout and password reset. If internal, I investigate for compromised workstation or insider threat. Throughout, I document findings in the Incident Response dashboard and correlate with other detections—brute force is often stage one of a multi-stage attack."*
-
-**Q: "How do you reduce false positives in your detection rules?"**
-
-*A: "I use multiple false positive reduction techniques. First, contextual analysis—my New Admin Account Creation rule classifies the creator account (admin vs. standard user) because admins creating accounts is expected. Second, threshold tuning—brute force detection requires 5+ failures to avoid triggering on single typos. Third, time windows—I track events over 15-minute windows to catch rapid attacks while filtering slow, spread-out legitimate activity. Fourth, account type whitelisting—service accounts and system accounts are excluded from certain rules. Fifth, statistical baselines—my C2 beaconing detection uses standard deviation analysis that adapts to environment norms rather than fixed thresholds. Finally, continuous improvement—I review triggered alerts, classify false positives, and refine logic. The goal is balancing detection coverage with analyst workload—too many false positives create alert fatigue and missed real threats."*
-
-**Q: "What's your incident response process for a detected lateral movement event?"**
-
-*A: "Lateral movement detection fires when I see network logons (Type 3) or RDP sessions (Type 10) between systems. My response follows the IR lifecycle: First, immediate triage using the Incident Response dashboard—identify source system, destination system, account used, and timestamp. Second, scope assessment—is this isolated or are multiple systems involved? Check the 'Affected Systems' metric and Attack Timeline. Third, containment decision—if it's widespread (10+ systems), we're dealing with an active attack requiring emergency isolation. If limited (2-3 systems), I have time for investigation before containment. Fourth, evidence collection—use Process Execution Chain panel to see what commands ran after lateral movement, Network Connections to identify if attacker is communicating externally, and File Modifications to check for malware drops. Fifth, containment—isolate affected systems, disable compromised accounts, block source IPs. Sixth, eradication—remove malware, close initial access vector. Finally, recovery—restore from clean backups, reset credentials, document lessons learned. Throughout, I maintain detailed timeline in Response Actions Log for compliance and post-incident review."*
-
-See [INTERVIEW-GUIDE.md](./INTERVIEW-GUIDE.md) for 50+ additional interview questions and detailed answers.
+This lab demonstrates understanding of enterprise security operations, from infrastructure deployment through threat detection and incident response workflows. All components are documented with detailed technical specifications and detection logic explanations.
 
 ---
 
