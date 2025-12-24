@@ -48,6 +48,11 @@ Executive-level security posture dashboard providing real-time visibility into d
 - **Executive Communication**: Color-coded severity indicators and at-a-glance security posture assessment
 - **Detection Engineering**: Custom correlation rules mapped to MITRE ATT&CK framework
 
+### **Dashboard Screenshots**
+![Dashboard 1 - Screenshot 1](./images/splunk-security-operations-dashboard-1.png)
+![Dashboard 1 - Screenshot 2](./images/splunk-security-operations-dashboard-2.png)
+![Dashboard 1 - Screenshot 3](./images/splunk-security-operations-dashboard-3.png)
+
 ---
 
 ## 2. Threat Hunting Dashboard
@@ -88,6 +93,13 @@ Proactive threat hunting workspace enabling security analysts to find hidden thr
 - **Statistical Analysis**: Standard deviation calculations and frequency-based anomaly detection
 - **MITRE ATT&CK Knowledge**: Comprehensive persistence mechanism coverage
 - **Data Science Skills**: Behavioral baselines and statistical threshold detection
+
+### **Dashboard Screenshots**
+![Dashboard 2 - Screenshot 1](./images/threat-hunting-dashboard-1.png)
+![Dashboard 2 - Screenshot 2](./images/threat-hunting-dashboard-2.png)
+![Dashboard 2 - Screenshot 3](./images/threat-hunting-dashboard-3.png)
+![Dashboard 2 - Screenshot 4](./images/threat-hunting-dashboard-4.png)
+![Dashboard 2 - Screenshot 5](./images/threat-hunting-dashboard-5.png)
 
 ---
 
@@ -135,6 +147,13 @@ Centralized incident response workspace providing comprehensive tools for active
 - **MITRE ATT&CK Proficiency**: Automated technique mapping and kill chain analysis
 - **Forensic Analysis**: Timeline reconstruction and evidence correlation
 - **Decision-Making Frameworks**: Risk-based containment prioritization and automated recommendations
+
+### **Dashboard Screenshots**
+![Dashboard 3 - Screenshot 1](./images/incident-response-dashboard-1.png)
+![Dashboard 3 - Screenshot 2](./images/incident-response-dashboard-2.png)
+![Dashboard 3 - Screenshot 3](./images/incident-response-dashboard-3.png)
+![Dashboard 3 - Screenshot 4](./images/incident-response-dashboard-4.png)
+![Dashboard 3 - Screenshot 5](./images/incident-response-dashboard-5.png)
 
 ---
 
@@ -186,6 +205,18 @@ Comprehensive endpoint monitoring providing real-time visibility into process be
 - **Compliance & Vulnerability Management**: Risk-based patch prioritization
 - **Regex & Field Extraction**: Complex command-line parsing and Base64 payload extraction
 
+### **Dashboard Screenshots**
+![Dashboard 4 - Screenshot 1](./images/endpoint-security-dashboard-1.png)
+![Dashboard 4 - Screenshot 2](./images/endpoint-security-dashboard-2.png)
+![Dashboard 4 - Screenshot 3](./images/endpoint-security-dashboard-3.png)
+![Dashboard 4 - Screenshot 4](./images/endpoint-security-dashboard-4.png)
+![Dashboard 4 - Screenshot 5](./images/endpoint-security-dashboard-5.png)
+![Dashboard 4 - Screenshot 6](./images/endpoint-security-dashboard-6.png)
+![Dashboard 4 - Screenshot 7](./images/endpoint-security-dashboard-7.png)
+![Dashboard 4 - Screenshot 8](./images/endpoint-security-dashboard-8.png)
+![Dashboard 4 - Screenshot 9](./images/endpoint-security-dashboard-9.png)
+![Dashboard 4 - Screenshot 10](./images/endpoint-security-dashboard-10.png)
+
 ---
 
 ## 5. Network Traffic Analysis Dashboard
@@ -233,6 +264,12 @@ Comprehensive network-based threat detection dashboard providing real-time visib
 - **Cloud Security Skills**: AWS VPC Traffic Mirroring implementation
 - **Signature Tuning**: False positive management and rule optimization
 - **Network Forensics**: Connection pattern analysis and data flow investigation
+
+### **Dashboard Screenshots**
+![Dashboard 5 - Screenshot 1](./images/suricata-network-traffic-dashboard-1.png)
+![Dashboard 5 - Screenshot 2](./images/suricata-network-traffic-dashboard-2.png)
+![Dashboard 5 - Screenshot 3](./images/suricata-network-traffic-dashboard-3.png)
+
 
 ---
 
