@@ -273,25 +273,71 @@ Initial Access → Execution → Persistence → Privilege Escalation → Latera
 ### **Dashboard Screenshots**
 
 **Splunk Security Operations Dashboard:**
-![Splunk Dashboard](./images/splunk-security-operations-dashboard-1.png)
+![Splunk Dashboard - Screenshot 1](./images/splunk-security-operations-dashboard-1.png)
 
 
 **Splunk Security Operations Dashboard:**
-![Splunk Dashboard](./images/splunk-security-operations-dashboard-2.png)
+![Splunk Dashboard - Screenshot 2](./images/splunk-security-operations-dashboard-2.png)
 
 
 **Splunk Security Operations Dashboard:**
-![Splunk Dashboard](./images/splunk-security-operations-dashboard-3.png)
+![Splunk Dashboard - Screenshot 3](./images/splunk-security-operations-dashboard-3.png)
 
 
 **Suricata Network Traffic Analysis:**
-![Suricata Dashboard](./images/suricata-network-traffic-dashboard-1.png)
+![Suricata Dashboard - Screenshot 1](./images/suricata-network-traffic-dashboard-1.png)
 
 **Suricata Network Traffic Analysis:**
-![Suricata Dashboard](./images/suricata-network-traffic-dashboard-2.png)
+![Suricata Dashboard - Screenshot 2](./images/suricata-network-traffic-dashboard-2.png)
 
 **Suricata Network Traffic Analysis:**
-![Suricata Dashboard](./images/suricata-network-traffic-dashboard-3.png)
+![Suricata Dashboard - Screenshot 2](./images/suricata-network-traffic-dashboard-3.png)
+
+<details>
+<summary>📸 Click to view all 5 dashboards</summary>
+
+### Dashboard 1: Security Operations Overview
+![Dashboard 1 - Screenshot 1](./images/splunk-security-operations-dashboard-1.png)
+![Dashboard 1 - Screenshot 2](./images/splunk-security-operations-dashboard-2.png)
+![Dashboard 1 - Screenshot 3](./images/splunk-security-operations-dashboard-3.png)
+
+
+### Dashboard 2: Threat Hunting Dashboard  
+![Dashboard 2 - Screenshot 1](./images/threat-hunting-dashboard-1.png)
+![Dashboard 2 - Screenshot 2](./images/threat-hunting-dashboard-2.png)
+![Dashboard 2 - Screenshot 3](./images/threat-hunting-dashboard-3.png)
+![Dashboard 2 - Screenshot 4](./images/threat-hunting-dashboard-4.png)
+![Dashboard 2 - Screenshot 5](./images/threat-hunting-dashboard-5.png)
+
+
+### Dashboard 3: Incident Response Dashboard
+![Dashboard 3 - Screenshot 1](./images/incident-response-dashboard-1.png)
+![Dashboard 3 - Screenshot 2](./images/incident-response-dashboard-2.png)
+![Dashboard 3 - Screenshot 3](./images/incident-response-dashboard-3.png)
+![Dashboard 3 - Screenshot 4](./images/incident-response-dashboard-4.png)
+![Dashboard 3 - Screenshot 5](./images/incident-response-dashboard-5.png)
+
+
+### Dashboard 4: Endpoint Security Dashboard
+![Dashboard 4 - Screenshot 1](./images/endpoint-security-dashboard-1.png)
+![Dashboard 4 - Screenshot 2](./images/endpoint-security-dashboard-2.png)
+![Dashboard 4 - Screenshot 3](./images/endpoint-security-dashboard-3.png)
+![Dashboard 4 - Screenshot 4](./images/endpoint-security-dashboard-4.png)
+![Dashboard 4 - Screenshot 5](./images/endpoint-security-dashboard-5.png)
+![Dashboard 4 - Screenshot 6](./images/endpoint-security-dashboard-6.png)
+![Dashboard 4 - Screenshot 7](./images/endpoint-security-dashboard-7.png)
+![Dashboard 4 - Screenshot 8](./images/endpoint-security-dashboard-8.png)
+![Dashboard 4 - Screenshot 9](./images/endpoint-security-dashboard-9.png)
+![Dashboard 4 - Screenshot 10](./images/endpoint-security-dashboard-10.png)
+
+
+### Dashboard 5: Network Traffic Analysis
+![Dashboard 5 - Screenshot 1](./images/suricata-network-traffic-dashboard-1.png)
+![Dashboard 5 - Screenshot 2](./images/suricata-network-traffic-dashboard-2.png)
+![Dashboard 5 - Screenshot 3](./images/suricata-network-traffic-dashboard-3.png)
+
+
+</details>
 
 ---
 
