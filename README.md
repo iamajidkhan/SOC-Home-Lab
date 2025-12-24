@@ -209,8 +209,8 @@ Initial Access → Execution → Persistence → Privilege Escalation → Latera
 
 ## 📊 Security Dashboards
 
-### **5 Comprehensive Dashboards (70+ Total Panels)**
-
+   I've built 5 production-grade security dashboards in Splunk. See [DASHBOARDS.md](./DASHBOARDS.md) for detailed documentation.
+   
 #### **Dashboard 1: Security Operations Overview** (13 Panels)
 **Purpose**: Real-time SOC monitoring for triage and response  
 **Features**:
