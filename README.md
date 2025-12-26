@@ -120,6 +120,11 @@ Complete AWS-based SOC infrastructure with integrated security monitoring across
                     └───────────────────────┘
 ```
 
+### **Visual Architecture Diagram**
+
+![SOC Lab Architecture](./images/architecture-diagram.png)
+*Complete AWS-based SOC infrastructure with integrated security monitoring*
+
 ### Infrastructure Components
 
 | Component | Type | IP Address | Role | Key Software |
@@ -206,7 +211,7 @@ Brute Force    PowerShell      Lateral Movement    Privilege Esc   C2 Beaconing 
 
 ## Security Dashboards
 
-I've built **5 production-grade security dashboards** in Splunk with **70+ visualization panels**. 
+I've built 5 production-grade security dashboards in Splunk. See [DASHBOARDS.md](./DASHBOARDS.md) for detailed documentation.
 
 ### Dashboard 1: Security Operations Overview (13 Panels)
 
@@ -275,6 +280,75 @@ I've built **5 production-grade security dashboards** in Splunk with **70+ visua
 - DNS query analysis
 - HTTP/HTTPS traffic breakdown
 
+### **Dashboard Screenshots**
+
+**Splunk Security Operations Dashboard:**
+![Splunk Dashboard - Screenshot 1](./images/splunk-security-operations-dashboard-1.png)
+
+
+**Splunk Security Operations Dashboard:**
+![Splunk Dashboard - Screenshot 2](./images/splunk-security-operations-dashboard-2.png)
+
+
+**Splunk Security Operations Dashboard:**
+![Splunk Dashboard - Screenshot 3](./images/splunk-security-operations-dashboard-3.png)
+
+
+**Suricata Network Traffic Analysis:**
+![Suricata Dashboard - Screenshot 1](./images/suricata-network-traffic-dashboard-1.png)
+
+**Suricata Network Traffic Analysis:**
+![Suricata Dashboard - Screenshot 2](./images/suricata-network-traffic-dashboard-2.png)
+
+**Suricata Network Traffic Analysis:**
+![Suricata Dashboard - Screenshot 2](./images/suricata-network-traffic-dashboard-3.png)
+
+
+<details>
+<summary>📸 Click to view all 5 dashboards</summary>
+
+### Dashboard 1: Security Operations Overview
+![Dashboard 1 - Screenshot 1](./images/splunk-security-operations-dashboard-1.png)
+![Dashboard 1 - Screenshot 2](./images/splunk-security-operations-dashboard-2.png)
+![Dashboard 1 - Screenshot 3](./images/splunk-security-operations-dashboard-3.png)
+
+
+### Dashboard 2: Threat Hunting Dashboard  
+![Dashboard 2 - Screenshot 1](./images/threat-hunting-dashboard-1.png)
+![Dashboard 2 - Screenshot 2](./images/threat-hunting-dashboard-2.png)
+![Dashboard 2 - Screenshot 3](./images/threat-hunting-dashboard-3.png)
+![Dashboard 2 - Screenshot 4](./images/threat-hunting-dashboard-4.png)
+![Dashboard 2 - Screenshot 5](./images/threat-hunting-dashboard-5.png)
+
+
+### Dashboard 3: Incident Response Dashboard
+![Dashboard 3 - Screenshot 1](./images/incident-response-dashboard-1.png)
+![Dashboard 3 - Screenshot 2](./images/incident-response-dashboard-2.png)
+![Dashboard 3 - Screenshot 3](./images/incident-response-dashboard-3.png)
+![Dashboard 3 - Screenshot 4](./images/incident-response-dashboard-4.png)
+![Dashboard 3 - Screenshot 5](./images/incident-response-dashboard-5.png)
+
+### Dashboard 4: Endpoint Security Dashboard
+![Dashboard 4 - Screenshot 1](./images/endpoint-security-dashboard-1.png)
+![Dashboard 4 - Screenshot 2](./images/endpoint-security-dashboard-2.png)
+![Dashboard 4 - Screenshot 3](./images/endpoint-security-dashboard-3.png)
+![Dashboard 4 - Screenshot 4](./images/endpoint-security-dashboard-4.png)
+![Dashboard 4 - Screenshot 5](./images/endpoint-security-dashboard-5.png)
+![Dashboard 4 - Screenshot 6](./images/endpoint-security-dashboard-6.png)
+![Dashboard 4 - Screenshot 7](./images/endpoint-security-dashboard-7.png)
+![Dashboard 4 - Screenshot 8](./images/endpoint-security-dashboard-8.png)
+![Dashboard 4 - Screenshot 9](./images/endpoint-security-dashboard-9.png)
+![Dashboard 4 - Screenshot 10](./images/endpoint-security-dashboard-10.png)
+
+
+### Dashboard 5: Network Traffic Analysis
+![Dashboard 5 - Screenshot 1](./images/suricata-network-traffic-dashboard-1.png)
+![Dashboard 5 - Screenshot 2](./images/suricata-network-traffic-dashboard-2.png)
+![Dashboard 5 - Screenshot 3](./images/suricata-network-traffic-dashboard-3.png)
+
+
+</details>
+
 ### 📊 See Complete Documentation
 
 **[→ View detailed dashboard documentation in DASHBOARDS.md](./DASHBOARDS.md)**
@@ -323,6 +397,18 @@ majidlab.local (Forest/Domain)
     ├── DistributionGroups
     └── SecurityGroups
 ```
+### **Active Directory Screenshots**
+
+![AD Structure 2](./images/active-directory-structure-2.png)
+
+![AD Structure 3](./images/active-directory-structure-3.png)
+
+![AD Structure 4](./images/active-directory-structure-4.png)
+
+![AD Structure 5](./images/active-directory-structure-5.png)
+
+![AD Structure 6](./images/active-directory-structure-6.png)
+
 
 ### Domain Users (5 Created)
 
@@ -365,6 +451,10 @@ majidlab.local (Forest/Domain)
 ✅ **Consistent Hardening**: Uniform security posture across all endpoints  
 ✅ **Comprehensive Logging**: Maximum telemetry for threat detection and IR  
 ✅ **Attack Surface Reduction**: Disabled legacy protocols and risky services  
+
+### **GPO Screenshot**
+![AD Security Groups](./images/ad-security-groups.png)
+
 
 ---
 
@@ -474,26 +564,21 @@ This lab demonstrates understanding of enterprise security operations, from infr
 
 ### Build Timeline
 
-- **Total Build Time**: Approximately 2-3 weeks (full-time effort)
-- **Last Updated**: December 2024
+- **Total Build Time**: Approximately 3-4 weeks (full-time effort)
+- **Last Updated**: December 2025
 - **Project Status**: ✅ Complete & Production-Ready
 
 ---
 
-## Skills & Certifications
+## Skills & Certifications that i have
 
-### Relevant for SOC Analyst Positions
+(https://www.credly.com/users/abdul-majid-khan.63113336)
 
-- Security Information and Event Management (SIEM)
-- Endpoint Detection and Response (EDR)
-- Intrusion Detection/Prevention Systems (IDS/IPS)
-- Incident Response & Forensics
-- Threat Hunting
-- MITRE ATT&CK Framework
-- Log Analysis (Windows Event Logs, Sysmon)
-- Network Traffic Analysis
-- Active Directory Security
-- Cloud Security (AWS)
+- Splunk Core Certified User - SPLUNK
+- CompTIA Security+ Certification - CompTIA
+- Google Cybersecurity Professional Certificate V2 - COURSERA
+- Introduction to Cybersecurity - CISCO
+- Fortinet Certified Associate Cybersecurity - FORTINET (pursuing)
 
 ---
 
@@ -527,6 +612,6 @@ This project is documented for educational and portfolio purposes. Feel free to 
 
 ---
 
-**Last Updated**: December 2024  
+**Last Updated**: December 2025  
 **Project Status**: ✅ Complete & Production-Ready  
-**Build Time**: ~3 weeks (full-time effort)
+**Build Time**: ~3-4 weeks (full-time effort)
